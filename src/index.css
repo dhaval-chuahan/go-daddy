@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.back-1{
+    background: #2B2B2B;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    padding: 8px 12px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: 5rem;
+}
+
+.search-container input[type="text"] {
+    border: none;
+    padding: 10px;
+    font-size: 26px;
+    width: 78%;
+    border-radius: 19px;
+    outline: none;
+    height: 5rem;
+    box-shadow: 1px -1px 22px -5px gray;
+}
+
+.search-container button {
+    background-color: #087c7f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 4rem;
+    margin-left: -11rem;
+    border: none;
+}
+
+.price-container {
+    margin-left: 15px;
+    text-align: right;
+}
+
+.price-container span {
+    font-size: 14px;
+    display: block;
+    margin-left: 2rem;
+}
+
+.price-container .price {
+    font-size: 18px;
+    color: #333;
+    margin-left: -6rem;
+    width: 112%;
+}
