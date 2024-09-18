@@ -170,7 +170,53 @@ body {
 .part-b{
     visibility: hidden;
 }
-@media (max-width:320px) {
+
+                                    /* three buttons */
+    .Do-cir{
+        display: flex;
+    width: 40%;
+    justify-content: space-around;
+    margin-left: 25rem;
+    margin-top: 3rem;
+    }
+    .round-cir{
+        border:1px solid black;
+        padding:9px;
+        border-radius: 25px;
+    }
+    .round-cir:hover{
+        color:white;
+        background-color: black;
+        transition: all 1s;
+    }
+                                            /* img start */
+    .Do-sec{
+        height: 576px;
+        width: 578px;
+        margin-left: 5rem;
+    }
+    .domain-pera{
+        width:29%;
+    }
+    .Do-btn{
+         border:1px solid black;
+         padding:10px;
+         background-color: black;
+         color:white;
+         border-radius: 5px;
+         font-size: 14px;
+         font-family: sans-serif;
+    }
+    .all-det{
+        margin-top: -12rem;
+        margin-left: 8rem;
+    }
+    .right-arrow{
+      visibility: hidden;
+    }
+    
+    
+    @media (max-width:320px) {
     .right-content{
         margin-top: 5rem;
         position: absolute;
@@ -186,6 +232,7 @@ body {
         width: 12rem;
         height: 44px;
     }
+   
 }
 
 
@@ -352,9 +399,68 @@ body {
   .d4{
     margin-left: -15rem;
     font-weight: 600;
-
   }
+  .img-sec{
+    width: 44rem;
+    height: 33rem;
+  }
+  .call-to-action{
+    width: 15rem;
+    position: absolute;
+    margin-left: -14rem;
+  } 
 
+}
+@media  (max-width:640px) {
+    .help{
+        margin-top: 17rem;
+    }
+    .Do-cir{
+       margin: 0 auto;
+       margin-left: 5px;
+       margin-top: 1rem;
+       font-size: 10px;
+       width:100%
+       
+    }
+    .Do-sec{
+        height: 250px;
+        width: 380px;
+        margin-left: 1rem;
+        border-radius: 8px;
+        margin-top: -2rem;
+
+    }
+    .all-det{
+        display: none;
+    }
+    .right-arrow{
+       visibility: visible;
+    }
+}
+@media (min-width:641px) and (max-width:991px){
+    .help{
+        margin-top: 14rem;
+    }
+    .Do-cir{
+        width:70%;
+        margin-left: 7rem;  
+    }
+    .all-det{
+        display:none;
+    }
+    .Do-sec{
+        height:250px;
+        width:300px;
+
+    }
+    
+}
+@media (min-width:992px) and (max-width:1024px){
+    .Do-cir{
+        margin-left: 17rem;
+        width:50%;
+    }
 }
 
 
