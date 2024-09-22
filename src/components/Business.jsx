@@ -26,6 +26,18 @@ export default class Business extends Component {
 </svg>
           </div>
         </div>
+        <div>
+          <img src="https://img1.wsimg.com/cdnassets/transform/fa9063d0-1ec3-4ab1-83e8-dbf6d03f9d3c/img-hp-recore-co-small" alt="" className='Do-sec-2' />
+          <div className='sec-box'>
+            <h2 className='tw-font-bold tw-text-2xl'>.co for ₹ 1.00/1st year</h2><br />
+            <p className='domain-pera-1'>Ensure your company and website stand out with a .co domain. 3-year purchase required. Additional year(s) ‪₹ 3,299.00‬.</p>
+            <br />
+            <button className='Do-btn'>Find Your Domain</button>
+          </div>
+          <br />
+          <img src="" alt="" />
+          
+        </div>
       </div>
     )
   }

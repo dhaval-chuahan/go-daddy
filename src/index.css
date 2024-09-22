@@ -214,6 +214,24 @@ body {
     .right-arrow{
       visibility: hidden;
     }
+    .Do-sec:hover{
+        box-shadow:1px 5px 20px -5px gray;
+        transition:all 1s;
+    }
+    .Do-sec-2{
+        height:276px;
+        width:599px;
+    }
+    .domain-pera-1{
+        width:18%;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .sec-box{
+        margin-top: -15rem;
+        margin-left: 2rem;
+    }
     
     
     @media (max-width:320px) {
@@ -450,9 +468,8 @@ body {
         display:none;
     }
     .Do-sec{
-        height:250px;
-        width:300px;
-
+        height: 300px;
+        width: 552px;
     }
     
 }
