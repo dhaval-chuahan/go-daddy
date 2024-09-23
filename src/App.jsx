@@ -2,6 +2,7 @@ import './index.css';
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Business from './components/Business';
+import Marketing from './components/Marketing';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Navbar/>
         <Header/>
         <Business/>
+        <Marketing/>
    </>
   );
 }

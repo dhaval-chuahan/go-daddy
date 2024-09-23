@@ -196,7 +196,7 @@ body {
         margin-left: 5rem;
     }
     .domain-pera{
-        width:29%;
+        width: 49%; 
     }
     .Do-btn{
          border:1px solid black;
@@ -223,7 +223,7 @@ body {
         width:599px;
     }
     .domain-pera-1{
-        width:18%;
+        width: 40%;
         font-family: sans-serif;
         font-size: 14px;
         font-weight: bold;
@@ -232,7 +232,50 @@ body {
         margin-top: -15rem;
         margin-left: 2rem;
     }
-    
+    .flex-div{
+        display: flex;
+        margin-left: -2rem;
+    }
+                                        /* Marketing img */
+    .mark-img{
+        height: 481px;
+        width:1311px;
+        margin-left: 1.1rem;
+    }
+    .mark-1{
+        margin-left: 4rem;
+        font-size: x-large;
+        width: 28%;
+        font-weight: 700;
+        font-family: sans-serif;
+        border: 1px solid white;
+        padding: 32px;
+        border-radius: 21px;
+    }
+    .mark-1:hover{
+        background-color: #f7f7f7;
+        padding: 20px;
+        transition: all 1s;
+    }
+    .mark-1-1{
+        font-size: small;
+        margin-top: 0.5rem;
+    }
+    .all-mark{
+        display:flex;
+    }
+    .mark-btn{
+        background: black;
+        color: white;
+        padding: 17px;
+        margin-left: 36rem;
+        font-family: sans-serif;
+    }
+    .mark-btn:hover{
+        border-radius: 15px;
+        transition: all 1s;
+        
+    }
     
     @media (max-width:320px) {
     .right-content{
@@ -443,8 +486,8 @@ body {
     }
     .Do-sec{
         height: 250px;
-        width: 380px;
-        margin-left: 1rem;
+        width: 19rem;
+        margin-left: 2.5rem;
         border-radius: 8px;
         margin-top: -2rem;
 
@@ -454,6 +497,14 @@ body {
     }
     .right-arrow{
        visibility: visible;
+    }
+    .Do-sec-2{
+        margin-top: 15rem;
+        width: 50%;
+        height: 15%;
+    }
+    .sec-box{
+        display:none;
     }
 }
 @media (min-width:641px) and (max-width:991px){

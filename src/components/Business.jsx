@@ -14,6 +14,7 @@ export default class Business extends Component {
         <br />
         <br />
         <br />
+        <div className='flex-div'>
         <div>
           <img src="https://img1.wsimg.com/cdnassets/transform/ec1ec404-8337-4417-9c0a-a4bf5eeace3a/intl-img-hp-recore-domains-large-landscape" className='Do-sec' alt="" />
           <div className='all-det'>          
@@ -35,10 +36,20 @@ export default class Business extends Component {
             <button className='Do-btn'>Find Your Domain</button>
           </div>
           <br />
-          <img src="" alt="" />
-          
+          <br />
+
+          <img src="https://img1.wsimg.com/cdnassets/transform/ab758ae9-0592-4e88-8623-409257c378fc/intl-img-hp-recore-cctld-small" alt=" " className='Do-sec-2' />
+          <div className='sec-box'>
+            <h2 className='tw-font-bold tw-text-2xl'>.in ‪₹ 1.00‬/1st yr</h2><br />
+            <p className='domain-pera-1'>Boost your local impact with our localized top-level domains.</p>
+            <br />
+            <button className='Do-btn'>Get Started</button>
+          </div>
         </div>
+        </div>
+        <br /><br /><br /><br /><br />
       </div>
+      
     )
   }
 }
