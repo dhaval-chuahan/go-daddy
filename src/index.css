@@ -190,13 +190,28 @@ body {
         transition: all 1s;
     }
                                             /* img start */
+    .bus-flex{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        /* margin: 0 auto */
+    }                                
     .Do-sec{
         height: 576px;
-        width: 578px;
-        margin-left: 5rem;
+        width: 100%;
+        background: url("https://img1.wsimg.com/cdnassets/transform/ec1ec404-8337-4417-9c0a-a4bf5eeace3a/intl-img-hp-recore-domains-large-landscape");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 2rem;
+        border-radius: 10px;
+
     }
     .domain-pera{
         width: 49%; 
+    }
+    .div-center{
+        margin: 0 auto;
     }
     .Do-btn{
          border:1px solid black;
@@ -208,19 +223,58 @@ body {
          font-family: sans-serif;
     }
     .all-det{
-        margin-top: -12rem;
-        margin-left: 8rem;
+       position: absolute;
+       z-index: 10;
+       margin-left:2rem;
+       margin-top: 23rem;
     }
     .right-arrow{
       visibility: hidden;
     }
-    .Do-sec:hover{
-        box-shadow:1px 5px 20px -5px gray;
-        transition:all 1s;
+   
+    .all-det1{
+        position: absolute;
+        z-index: 10;
+        margin-left: 2rem;
+        margin-top: 3rem;
+     }
+     .all-det2{
+        position: absolute;
+        z-index: 10;
+        margin-left: 2rem;
+        margin-top: 4rem;
+     }
+    .main-div1{
+        width: 100%;
     }
-    .Do-sec-2{
-        height:276px;
-        width:599px;
+    .bus-div1{
+        width: 100%;
+        margin-left: 2.5rem;
+    }
+    .bus-div2{
+        width: 100%;
+        margin-left: 4.3rem;
+
+    }
+    .bus-sub-div1{
+        width: 95%;
+        height: 280px;
+        margin-top: 2rem;
+        background: url(https://img1.wsimg.com/cdnassets/transform/fa9063d0-1ec3-4ab1-83e8-dbf6d03f9d3c/img-hp-recore-co-small);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border-radius: 10px;
+    }
+    .bus-sub-div2{
+        width: 95%;
+        height: 280px;
+        margin-top: 1rem;
+        background: url(https://img1.wsimg.com/cdnassets/transform/ab758ae9-0592-4e88-8623-409257c378fc/intl-img-hp-recore-cctld-small);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border-radius: 10px;
     }
     .domain-pera-1{
         width: 40%;
@@ -234,7 +288,8 @@ body {
     }
     .flex-div{
         display: flex;
-        margin-left: -2rem;
+        /* margin-left: -2rem; */
+        justify-content: space-between !important;
     }
                                         /* Marketing img */
     .mark-img{
@@ -277,6 +332,11 @@ body {
         
     }
     
+/* Business.jsx */
+.bus-div{
+    margin: 0 auto;
+}
+
     @media (max-width:320px) {
     .right-content{
         margin-top: 5rem;
@@ -391,6 +451,8 @@ body {
         width: 12rem;
         height: 44px;
     }
+  
+    
 }
 @media  (min-width:430px) and  (max-width:768px){
     .search-container input[type="text"]{
@@ -431,6 +493,7 @@ body {
         width: 12rem;
         height: 44px;
     }
+    
 }
 @media (min-width:1024px) and (max-width:1024px) {
   .under-t{
@@ -472,6 +535,8 @@ body {
   } 
 
 }
+
+
 @media  (max-width:640px) {
     .help{
         margin-top: 17rem;
@@ -484,30 +549,108 @@ body {
        width:100%
        
     }
-    .Do-sec{
-        height: 250px;
-        width: 19rem;
-        margin-left: 2.5rem;
-        border-radius: 8px;
-        margin-top: -2rem;
-
-    }
-    .all-det{
+   
+    /* .all-det{
         display: none;
-    }
+    } */
     .right-arrow{
        visibility: visible;
     }
     .Do-sec-2{
-        margin-top: 15rem;
-        width: 50%;
-        height: 15%;
+        /* margin-top: 15rem; */
+        width: 190px;
+        height: 160px;
+        margin-top: 1rem;
+        border-radius: 7px;
     }
-    .sec-box{
+    
+    /* .sec-box{
+        display:none;
+    } */
+    .flex-div{
+        display: block;
+    }
+    .r-img{
+        display: block;
+    }
+    .max-sm\:tw-mt-32 {
+        margin-top: -4rem;
+        margin-left: 0rem;
+    }
+    .Do-sec{
+        background: url(https://img1.wsimg.com/cdnassets/transform/3343fa4c-902b-4658-9299-dce12e1467e6/intl-img-hp-recore-domains-large-portrait);
+        background-position: center;
+        background-size: contain;
+        object-fit: fill;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        margin-top: -9rem;
+        margin-left: -1rem;
+        width: 99%;
+    
+    }
+    .bus-div1{
+        width:91%;
+
+    }
+    .bus-div2{
+        /* display:none; */
+        justify-content: space-between;
+        
+        width: 50%;
+        margin-top: 22rem;
+        margin-left: -30rem;
+    }
+    .bus-sub-div1{
+        /* display:none; */
+        /* width: 90%; */
+        background-size: contain;
+        margin-left: 5rem;
+        margin-top: -11rem;
+        width: 79%;
+    }
+    .bus-sub-div2{
+        /* display:none; */
+        /* width: 90%; */
+        width: 86%;
+        background-size: contain;
+        margin-top: -17.5rem;
+        margin-left: 17rem;
+    }
+    
+    .header-1{
         display:none;
     }
+    .right-arrow{
+        display:none;
+    }
+    .all-mark{
+        flex-direction: column;
+    }
+    .mark-btn{
+        margin-top: -2rem;
+        margin-left: 8rem;
+    }
+    .mark-img{
+        height: 293px;
+        width: 396px;
+        margin-left: 0.5rem;
+        border-radius: 21px;
+    
+    }
+    .mark-1{
+        margin-left: 3rem;
+    font-size: x-large;
+    width: 81%;
+    font-weight: 700;
+    font-family: sans-serif;
+    border: 1px solid white;
+    padding: 32px;
+    border-radius: 21px;
+    }
+
 }
-@media (min-width:641px) and (max-width:991px){
+@media (min-width:641px) and  (max-width:991px){
     .help{
         margin-top: 14rem;
     }
@@ -517,18 +660,175 @@ body {
     }
     .all-det{
         display:none;
+        
     }
-    .Do-sec{
-        height: 300px;
-        width: 552px;
+    .all-det1{
+        display:none;
+    }
+    .all-det2{
+        display:none;
     }
     
+    .drop-box{
+        margin-top: 25rem;
+    }
+    .bus-div1 {
+        width: 92%;
+        margin-left: 2.5rem;
+    }
+    .bus-div2{
+        display: flex;
+        justify-content: space-between;
+        
+        width: 50%;
+        margin-top: 22rem;
+        margin-left: -30rem;
+    }
+    .Do-sec{
+        background: url(https://img1.wsimg.com/cdnassets/transform/3343fa4c-902b-4658-9299-dce12e1467e6/intl-img-hp-recore-domains-large-portrait);
+        background-position: center;
+        background-size: contain;
+        object-fit: fill;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        margin-top: -5rem;
+        margin-left: 3rem;
+        width: 80%;
+    }
+    .bus-sub-div1{
+        width: 91%;
+        background-size: contain;
+        margin-left: -11.3rem;
+        margin-top: -1rem;
+    }
+    .bus-sub-div2{
+        width: 90%;
+        background-size: contain;
+        margin-top: -1.5rem;
+        margin-left: 1rem;
+    }
+    .mark-btn{
+        margin-left: 20rem;
+        margin-top: -2rem;
+    }
+    .mark-img{
+        height: 361px;
+        width: 691px;
+        margin-left: 2rem;
+        border-radius: 21px;
+    }
+    .mark-1{
+        margin-left: 1rem;
+        font-size: larger;
+        width: 30%;
+        font-weight: 700;
+        font-family: sans-serif;
+        border: 1px solid white;
+        padding: 32px;
+        border-radius: 21px;
+    }
+    .all-mark{
+        width:100%;
+    }
+
+    
+    
+    
+   
+    
+
+    
 }
-@media (min-width:992px) and (max-width:1024px){
+@media (min-width:992px)and (max-width:1024px){
     .Do-cir{
         margin-left: 17rem;
         width:50%;
     }
+    .flex-div{
+        display: block;
+    }
+    .Do-sec{
+        background: url(https://img1.wsimg.com/cdnassets/transform/3343fa4c-902b-4658-9299-dce12e1467e6/intl-img-hp-recore-domains-large-portrait);
+        background-position: center;
+        background-size: contain;
+        object-fit: fill;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+    }
+    .bus-flex{
+        display: block;
+    }
+    .bus-div1{
+        width:100%;
+        margin: 0;
+    }
+    .main-div1{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .div-text1{
+        display: none;
+    }
+    .header-1{
+        display: inline-block;
+    }
+    .right-arrow{
+        visibility: visible;
+    }
+    .bus-div2{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 80%;
+        margin-top: -7rem;
+    }
+    .bus-sub-div1{
+        background-size: contain;
+        height: 280px;
+        margin-top: 2rem;
+        width: 60%;
+    
+    }
+    .bus-sub-div2{
+        background-size: contain;
+        height: 280px;
+        margin-top: 2rem;
+        width: 60%;
+        margin-left: 2rem;
+    }
+    .tw-font-bold {
+        font-weight: 700;
+        margin-top: 1rem;
+    }
+    .mark-img{
+        height: 421px;
+        width: 954px;
+        margin-left: 2.1rem;
+        border-radius: 22px;
+    }
+    .mark-1{
+        margin-left: 3rem;
+        font-size: larger;
+        width: 30%;
+        font-weight: 700;
+        font-family: sans-serif;
+        border: 1px solid white;
+        padding: 32px;
+        border-radius: 21px;
+    }
+    .mark-1:hover{
+        background-color: #f7f7f7;
+        padding: 20px;
+        transition: all 1s;
+    }
+    .mark-btn{
+        margin-left: 27rem;
+        margin-top: -2rem;
+    }
+
+    
+
 }
 
 
