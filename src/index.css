@@ -336,6 +336,118 @@ body {
 .bus-div{
     margin: 0 auto;
 }
+                                            /* Slider css */
+    /* start */
+    
+.container-slider {
+    overflow: auto;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* height:500px; */
+  }
+  
+  .card-slider {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    width: 100%;
+  }
+  
+  .title {
+    width: 100%;
+    display: inline-block;
+    word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .poster-img{
+    width: 100%;
+    border-radius: 15px;
+    height: 41rem;
+  }
+  
+
+    /* End */
+
+                                                        /* Poster */
+    /* s */
+        .word-t{
+            width:45%;
+            line-height: 50px;
+        }
+        .under-section{
+            width: 46%;
+            height: 93%;
+            background-color: white;
+            position: absolute;
+            margin-top: -39rem;
+            margin-left: 43rem;
+            border-radius: 15px;
+        }
+        .u-text{
+            width:84%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+                                    /* end */
+
+                            /* new wring section start */
+        .write{
+            width:40%;
+            margin-left: 2rem;
+            margin-top: 4rem;
+        }
+
+        .container-slider-1 {
+            overflow: auto;
+            display: flex;
+            scroll-snap-type: x mandatory;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 15px;
+            /* height:500px; */
+            
+          }
+          
+          .card-slider-1 {
+            background-color: rgba(233, 233, 233, 0.836);
+            /* border: 1px solid black; */
+            backdrop-filter: blur(7px);
+            -webkit-backdrop-filter: blur(7px);
+            border-radius: 10px;
+            margin: 1rem;
+            height: 450px;
+            width: 100%;
+            padding: 12rem;
+          }
+          
+          .title-1 {
+            font-size: smaller;
+            display: inline-block;
+            word-break: break-all;
+            margin-left: -11rem;
+            position: absolute;
+            margin-top: -10rem;
+            
+            
+          }
+          .poster-img-1{
+            width: 100%;
+            border-radius: 15px;
+            height: 41rem;
+          }
+
+                                                /* end */
+
 
     @media (max-width:320px) {
     .right-content{
@@ -648,6 +760,18 @@ body {
     padding: 32px;
     border-radius: 21px;
     }
+    .under-section{
+        margin-left: 0rem;
+        width: 100%;
+        height: 46rem;
+        margin-top: 0rem;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        background-color: #f7f7f7;
+      }
+      .und-img{
+        margin-left: 0rem;
+      }
 
 }
 @media (min-width:641px) and  (max-width:991px){
@@ -730,6 +854,15 @@ body {
     .all-mark{
         width:100%;
     }
+    .under-section{
+        margin-left: 0rem;
+        width: 100%;
+        height: 34rem;
+        margin-top: 0rem;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        background-color: #f7f7f7;
+      }
 
     
     
@@ -826,6 +959,16 @@ body {
         margin-left: 27rem;
         margin-top: -2rem;
     }
+    .under-section{
+        margin-left: 23rem;
+        width: 63%;
+        height: 39rem;
+        margin-top: -40rem;
+    }
+    .first-box{
+        margin-top: -0.25rem;
+    }
+   
 
     
 

@@ -34,6 +34,9 @@ export default class Marketing extends Component {
         <br /><br />
         <br /><br />
         <button className='text-center mark-btn'>Start For Free →</button>
+        <br />
+        <br />
+        <br />
       </div>
     )
   }
