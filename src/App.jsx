@@ -6,6 +6,7 @@ import Marketing from './components/Marketing';
 import Slider from './components/Slider';
 import Poster from './components/Poster';
 import Trust from './components/Trust';
+import Work from './components/Work';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Slider/>
         <Poster/>
         <Trust/>
+        <Work/>
    </>
   );
 }
