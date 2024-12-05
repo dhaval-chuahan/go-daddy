@@ -4,7 +4,7 @@ export default class Business extends Component {
   render() {
     return (
       <>
-        <div>
+        <div className='max-sm:tw-hidden'>
           <h1 className='tw-text-center tw-text-5xl tw-font-bold tw-font-sans help'>What can we help you with?</h1>
           <div className='Do-cir'>
             <div className='round-cir'>Domain</div>
