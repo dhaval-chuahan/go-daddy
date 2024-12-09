@@ -66,7 +66,7 @@ export default class Slider extends Component {
                 </div>
                 </div> */}
 
-                <marquee behavior=""  direction="" scrollamount="150"  >
+                {/* <marquee behavior=""  direction="" scrollamount="150"  >
                     <div className="tw-flex "  >
                     <div><img src="https://img1.wsimg.com/cdnassets/transform/a4beaca9-862a-416c-a247-abc591413f9d/koretailfurnituretemplate_mobile" alt="" className='high h1' /></div>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -82,7 +82,16 @@ export default class Slider extends Component {
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <div><img src="https://img1.wsimg.com/cdnassets/transform/d196e84d-26d6-47d0-b4df-b3e493a3934c/kohealthalternativetemplate_mobile" alt="" className='high h7' /></div>
                     </div>
-                </marquee>
+                </marquee> */}
+                 <div className="slider">
+        <div className="slides">
+            <div className="slide"><img src="img1.png" alt="Slide 1"/></div>
+            <div className="slide"><img src="img2.png" alt="Slide 2"/></div>
+            <div className="slide"><img src="img3.png" alt="Slide 3"/></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+                
             </div>
         )
     }
