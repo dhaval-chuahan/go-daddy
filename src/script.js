@@ -47,18 +47,8 @@
 
 
     // script.js
-let currentIndex = 0;
 
-function autoSlide() {
-    const slides = document.querySelector('.slides');
-    const totalSlides = document.querySelectorAll('.slide').length;
 
-    currentIndex = (currentIndex + 1) % totalSlides; // Loop back to the start
-    slides.style.transform = `translateX(-${currentIndex * 100}%)`;
-}
-
-// Auto-slide every 3 seconds
-setInterval(autoSlide, 3000);
 
 
 

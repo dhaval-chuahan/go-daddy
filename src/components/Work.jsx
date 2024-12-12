@@ -9,8 +9,8 @@ export default class Work extends Component {
         <p className='tw-text-1xl tw-text-center'>84+ million domains, 22 million customers, millions of websites,</p>
         <p className='tw-text-1xl tw-text-center'>email and security — we help grow businesses.</p>
         <br /><br /><br />
-        
-                <div className='tw-flex tw-ml-5 all-pic'>
+
+        <div className='tw-flex  all-pic'>
                     <div className='picture-s '> 
                         <img src="https://i.ibb.co/JnsMYDk/Zzzz-security-to-help-you-sleep-easy-every-night-1.png" alt="Zzzz-security-to-help-you-sleep-easy-every-night-1" border="0" className='pic-s' />
                     </div>
@@ -34,8 +34,8 @@ export default class Work extends Component {
 
                     </div>
 
-          <br /><br /><br />
-          <div>
+        <br /><br /><br />
+        <div>
             <div className='imglady'>
               
             </div>
@@ -47,20 +47,17 @@ export default class Work extends Component {
             <p className=' tw-font-bold tw-w-96 line-1'>Because we know that even the best technology is only as good as the people behind it. That’s why we offer expert support, plus a lot more.</p>
             <br />
             <button className='bt-help'>Get Help</button>
-            
-            
-            {/* <img src="https://img1.wsimg.com/cdnassets/transform/5471a319-d006-4ef1-b8f0-6079f3d8b5da/mrq-Guide-IN-PK-Suraiya-desktop" alt="" /> */}
           </div>
-          <br />
-          <br />
-          <p className='tw-text-5xl  tw-font-sans  pera-f'>Millions of customers rely on our domains and web hosting to get their ideas online.</p>
-          <br />
-          <p className='sec-line'>Frequently Asked Questions</p>
-          <br /><br />
-          <br />
+        <br />
+        <br />
+        {/* <p className='tw-text-5xl  tw-font-sans  pera-f'>Millions of customers rely on our domains and web hosting to get their ideas online.</p> */}
+        <br />
+        {/* <p className='sec-line'>Frequently Asked Questions</p> */}
+        <br /><br />
+        <br />
 
-          {/* slider */}
-          <div className="accordion width-slider" id="accordionExample">
+        {/* slider */}
+        <div className="accordion width-slider" id="accordionExample">
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button tw-text-2xl tw-font-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -176,7 +173,7 @@ Best of all, a website is much easier and more affordable than you might think. 
     </div>
   </div>
 </div>
-    
+
       </div>
     )
   }
