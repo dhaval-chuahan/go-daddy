@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/go-daddy/static/css/main.dd8de78b.css",
+    "main.js": "/go-daddy/static/js/main.e16fefda.js",
+    "static/js/453.807b4194.chunk.js": "/go-daddy/static/js/453.807b4194.chunk.js",
+    "static/media/logo.png": "/go-daddy/static/media/logo.6f9d03d7db4a54111b5f.png",
+    "index.html": "/go-daddy/index.html",
+    "main.dd8de78b.css.map": "/go-daddy/static/css/main.dd8de78b.css.map",
+    "main.e16fefda.js.map": "/go-daddy/static/js/main.e16fefda.js.map",
+    "453.807b4194.chunk.js.map": "/go-daddy/static/js/453.807b4194.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd8de78b.css",
+    "static/js/main.e16fefda.js"
+  ]
+}
